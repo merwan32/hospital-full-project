@@ -1,0 +1,19 @@
+.links{
+    background-color: var(--primery);
+    display: flex;
+    align-items: center;
+    padding: 11px 130px;
+    justify-content: center;
+    height: 48px;
+}
+.links h3{
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.links h3.active{
+    color: var(--secondary);
+}

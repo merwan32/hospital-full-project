@@ -1,0 +1,27 @@
+.top{
+    background: #eee;
+    padding: 0px 130px ;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.top ul li {
+    margin-left: 2px;
+    text-transform: capitalize;
+    color: var(--primery);
+    font-size: 12px;
+    margin:  0 2px;
+    cursor: pointer;
+}
+.top ul li a {
+    width: 26px !important;
+    height: 26px !important;
+}

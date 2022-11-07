@@ -1,0 +1,54 @@
+.header{
+    background: white;
+    padding: 0px 130px ;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.header .informations{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.header .informations > div{
+    margin: 0 10px;
+}
+.header .informations .search {
+    width: 42px;
+    height: 42px;
+    border: 2px solid var(--primery);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.header .informations .phone,
+.header .informations .book{
+    display: flex;
+    align-items: center;
+}
+
+.header .informations .book {
+    border: 2px solid var(--primery);
+    border-radius: 30px;
+    padding: 0 10px;
+}
+
+.header .informations h2{
+    font-size: 18px;
+    color: var(--primery);
+    margin-left: 5px;
+}
+
+.header .informations svg {
+    color: var(--secondary) !important;
+}
